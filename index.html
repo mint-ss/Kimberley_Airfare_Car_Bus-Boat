@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kimberley Travel & Tour | Home</title>
+    <link rel="icon" type="image/png" href="img/kimberley.jpg">
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="bus-ticket.css"> -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        
+        <!-- Sidebar -->
+        <aside class="sidebar collapsed" id="sidebar">
+
+            <!-- Hamburger inside sidebar -->
+            <button class="sidebar-toggle" id="sidebarToggle">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <nav>
+                <ul>
+                    <li class="menu-item active" data-menu="hotel">
+                        <a href="#">
+                            <i class="fa-solid fa-hotel"></i>
+                            <span class="text">Hotel</span>
+                        </a>
+                        <ul class="sub-menu">
+                            <li><a href="index.html"class="flight1">Domestic hotels</a></li>
+                            <li><a href="#">Overseas Hotels</a></li>
+                        </ul>
+                        <div class="hover-description">Hotel</div>
+                    </li>
+
+                    <li class="menu-item " data-menu="flight">
+                        <a href="#">
+                            <i class="fa-solid fa-plane"></i>
+                            <span class="text">Airfare</span>
+                        </a>
+                        <ul class="sub-menu">
+                            <li><a href="domesticAirfare.html">Domestic/International,Hong Kong,Macao
+                                    andTaiwan</a></li>
+                            <li><a href="mapAirfare.html">Discounted airfares</a></li>
+                            <li><a href="flightStatusAirfare.html" >Flight status</a></li>
+                            <li><a href="#">Check-in and seat selection</a></li>
+                            <li><a href="#">Refund and rescheduling</a></li>
+                            <li><a href="#">Reimbursement vouchers</a></li>
+                            <li><a href="guideAirfare.html" >Airport Guide</a></li>
+                            <li><a href="customizedAirfare.html">Customized charter flights</a></li>
+                        </ul>
+                        <div class="hover-description">Hotel</div>
+                    </li>
+
+                    <li class="menu-item" data-menu="train">
+                        <a href="#">
+                            <i class="fa-solid fa-train"></i>
+                            <span class="text">Train tickets</span>
+                        </a>
+                        <ul class="sub-menu">
+                            <li><a href="#">Domestic train tickets</a></li>
+                            <li><a href="#">International/Hong Kong,Macao and Taiwan</a></li>
+                        </ul>
+                        <div class="hover-description">Train tickets</div>
+                    </li>
+
+                    <li class="menu-item" data-menu="travels">
+                        <a href="#">
+                            <i class="fa-solid fa-flag"></i>
+                            <span class="text">Travel</span>
+                        </a>
+                        <ul class="sub-menu">
+                            <li><a href="#">Tourism Homepage</a></li>
+                            <li><a href="#">Group tour</a></li>
+                            <li><a href="#">Private tour</a></li>
+                            <li><a href="#">Independent travel</a></li>
+                            <li><a href="#">Cruise ship</a></li>
+                            <li><a href="#">Day trip</a></li>
+                            <li><a href="#">Customized travel</a></li>
+                            <li><a href="#">Local tours</a></li>
+                            <li><a href="#">High-end travel</a></li>
+                            <li><a href="#">Theme Tour</a></li>
+                            <li><a href="#">Study Abroad</a></li>
+                            <li><a href="#">Visa</a></li>
+                            <li><a href="#">Insurance</a></li>
+                            <li><a href="#">Coporate MICE</a></li>
+                            <li><a href="#">Destination</a></li>
+                        </ul>
+                        <div class="hover-description">Travel</div>
+                    </li>
+
+                    <li class="menu-item" data-menu="tickets">
+                        <a href="#">
+                            <i class="fa-solid fa-ticket"></i>
+                            <span class="text">Tickets & Events</span>
+                        </a>
+                        <ul class="sub-menu">
+                            <li><a href="#">Sub-menu Item X</a></li>
+                            <li><a href="#">Sub-menu Item Y</a></li>
+                        </ul>
+                        <div class="hover-description">Tickets & Events</div>
+                    </li>
+
+                    <li class="menu-item" data-menu="Bus&Boat">
+                        <a href="#">
+                            <i class="fa-solid fa-bus"></i>
+                            <span class="text">Bus and boat tickets</span>
+                        </a>
+                        <ul class="sub-menu">
+                            <li><a href="busTicket.html">Bus ticket</a></li>
+                            <li><a href="boatTicket.html">Boat ticket</a></li>
+                        </ul>
+                        <div class="hover-description">Bus and boat tickets</div>
+                    </li>
+
+                    <li class="menu-item " data-menu="Car">
+                        <a href="#">
+                            <i class="fa-solid fa-car"></i>
+                            <span class="text">Car</span>
+                        </a>
+                        <ul class="sub-menu">
+                            <li><a href="domesticCarRental.html">Domestic car rental</a></li>
+                            <li><a href="overseaCaarRental.html">Overseas car rental</a></li>
+                            <li><a href="airportpickup.html" >Airport pick-up and drop-off station</a></li>
+                            <li><a href="dailyCarRental.html">Daily car rental</a></li>
+                        </ul>
+                        <div class="hover-description">Car</div>
+                    </li>
+
+
+                </ul>
+            </nav>
+        </aside>
+
+
+        
+        <!-- Main Content -->
+        <main class="main-content">
+            <header class="main-header">
+                <div class="header-content">
+
+                    <div class="logo-section">
+                        <img class="logo" src="img/kimberley.jpg">
+                        <span class="website-name">Kimberley</span>
+                    </div>
+
+                    <div class="search-bar">
+                        <input type="text" placeholder="Search for anything related to travel">
+                        <button type="button"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </div>
+
+                    <nav class="header-nav">
+                        <a href="#">Log in</a><span>|</span>
+                        <a href="#">Register</a><span>|</span>
+
+                        <div class="dropdown-container" id="myOrdersDropdown">
+                            <a href="#" class="dropdown-toggle">My Orders <i class="fa-solid fa-caret-down"></i></a>
+                            <div class="dropdown-menu order-dropdown-menu">
+                                <a href="#"><i class="fa-solid fa-plane"></i> Flight tickets and related orders</a>
+                                <a href="#"><i class="fa-solid fa-hotel"></i> Hotel bookings</a>
+                                <a href="#"><i class="fa-solid fa-map-location-dot"></i> Travel orders</a>
+                                <a href="#"><i class="fa-solid fa-train"></i> Train ticket orders</a>
+                                <a href="#"><i class="fa-solid fa-list-ul"></i> All orders</a>
+                                <hr>
+                                <a href="#"><i class="fa-solid fa-mobile-screen-button"></i> Check orders via phone</a>
+                            </div>
+                        </div>
+
+                        <span>|</span>
+
+                        <div class="dropdown-container" id="contactCustomerServiceDropdown">
+                            <a href="#" class="dropdown-toggle">Contact customer service <i
+                                    class="fa-solid fa-caret-down"></i></a>
+                            <div class="dropdown-menu contact-dropdown-menu">
+                                <a href="#" class="customer-center">Visit Customer Center ></a>
+                                <hr>
+                                <p>Domestic: 95010 / 400-830-6666</p>
+                                <p>HK: +852-3008-3295</p>
+                                <p>Macao: +86-21 3406-4888</p>
+                                <p>Taiwan: +86-21 3406-4888</p>
+                                <p>Other regions: +86-21 3406-4888</p>
+                            </div>
+                        </div>
+
+                        <a href="#" class="icon-link"><i class="fa-solid fa-phone"></i></a>
+                        <a href="#" class="icon-link"><i class="fa-solid fa-heart"></i></a>
+                        <div class="theme-toggle" id="theme-toggle">
+                            <input type="checkbox" id="theme-switch" class="theme-switch-checkbox">
+                            <label for="theme-switch" class="theme-switch-label">
+                                <span class="theme-switch-inner"></span>
+                                <span class="theme-switch-slider"></span>
+                            </label>
+                        </div>
+                    </nav>
+                </div>
+            </header>
+<!-- 
+            <div class="form-header-nav">
+                <a href="#" class="active-tab">Domestic</a>
+                <a href="#">International/Hong Kong, Macao and Taiwan</a>
+                <a href="#">Discounted airfares</a>
+                <a href="#">Flight status</a>
+                <a href="#">Online seat selection</a>
+                <a href="#">Refund and rescheduling</a>
+                <a href="#">More services</a>
+            </div>
+
+            <div class="flight-search-form"> 
+                <div class="tab-options">
+                    <label><input type="radio" name="trip-type" value="one-way" checked> One-way</label>
+                    <label><input type="radio" name="trip-type" value="round-trip"> Round trip</label>
+                    <label><input type="radio" name="trip-type" value="multi-pass"> Multi-pass</label>
+                    <span class="cabin-class">No cabin class restrictions <i class="fa-solid fa-caret-down"></i></span>
+                </div>
+
+                <div class="input-row">
+                    <div class="input-field">
+                        <label>Departure point</label>
+                        <input type="text" value="Shanghai (SHA)">
+                    </div>
+                    <div class="swap-icon"><i class="fa-solid fa-right-left"></i></div>
+                    <div class="input-field">
+                        <label>Destination</label>
+                        <input type="text" value="Beijing (BJS)">
+                    </div>
+                    <div class="input-field">
+                        <label>Departure Date</label>
+                        <input type="text" value="2025-11-06 Today">
+                    </div>
+                    <div class="input-field">
+                        <label>Return Date</label>
+                        <input type="text" value="2025-11-09 Sunday">
+                    </div>
+                    <div class="input-field">
+                        <label>Passenger type</label>
+                        <input type="text" value="With children">
+                    </div>
+                </div>
+
+                <button class="search-button">Search</button>
+                <div class="banner-area"></div>
+            </div>  -->
+       
+       
+      
+       <!-- <div class="bus-content">
+        <div class="bus-container"></div>
+        <img class="bus-scan-code" src="./images/bus_front.png" alt="Bus Booking App" />
+
+    </div> -->
+
+
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
