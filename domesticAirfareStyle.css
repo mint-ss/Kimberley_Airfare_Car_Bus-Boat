@@ -402,7 +402,7 @@
     position: relative;
     overflow: hidden;
     /* မြေပုံပုံစံအတွက် background image ကို အသုံးပြုနိုင်သည် */
-    background-image: url('map_placeholder_bg.png'); 
+    background-image: url(img/chinaMap.png); 
     background-size: cover;
     background-position: center;
 }
